@@ -21,6 +21,7 @@ module.exports = function (injectedStore) {
         const user = {
             name: body.name,
             username: body.username,
+            email: body.email,
         }
 
         if (body.id) {
@@ -44,6 +45,7 @@ module.exports = function (injectedStore) {
         const user = {
             name: body.name,
             username: body.username,
+            email: body.email,
         }
 
         if (body.id) {
